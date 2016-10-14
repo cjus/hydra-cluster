@@ -6,4 +6,6 @@ Documentation for this project is hosted on the [project Wiki](https://github.co
 
 > This repo is under development. Star this project to follow its development. Complete source code for this project will be released once it's full integrated.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T3ymApCExK8" frameborder="0" allowfullscreen></iframe>
+
 ![](https://github.com/cjus/hydra-cluster/wiki/images/hydra-cluster-night.jpg)
