@@ -4,7 +4,7 @@ Hydra cluster is a low cost compute cluster built using SBCs, NodeJS and JavaScr
 
 Documentation for this project is hosted on the [project Wiki](https://github.com/cjus/hydra-cluster/wiki)
 
-> This repo is under development. Star this project to follow its development. Complete source code for this project will be released once it's full integrated.
+Source code can be found in the `src` folder.
 
 [![Video](http://img.youtube.com/vi/T3ymApCExK8/0.jpg)](http://www.youtube.com/watch?v=T3ymApCExK8)
 
