@@ -1,0 +1,27 @@
+{
+  "appServiceName": "mcp-service",
+  "maxSockets": 500,
+  "cluster": false,
+  "processes": 0,
+  "environment": "development",
+  "jwtPublicCert": "./config/service.pub",
+  "logPath": "",
+  "logRequestHeader": true,
+  "logOutboundRequest": true,
+  "logglyConfig": {
+    "token": "",
+    "subdomain": "mcp"
+  },
+  "hydra": {
+    "serviceName": "mcp",
+    "serviceIP": "",
+    "servicePort": 8043,
+    "serviceType": "controller",
+    "serviceDescription": "Master Control Service",
+    "redis": {
+      "url": "redis",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import 'css/core';
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: #000;
+  color: #00dd00;
+
+  &__scrollview {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    background-repeat: repeat;
+    align-items: baseline;
+    overflow-y: auto;
+    height: 0;
+  }
+
+  &__input {
+    flex: 1;
+  }
+
+  pre {
+    font-size: 1.5rem;
+    font-family: monospace, monospace;
+    min-height: 2rem;
+    background-color: black;
+    color: green;
+    border-color: black;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "cluster": false,
+  "processes": 0,
+  "hydra": {
+    "serviceName": "hc-pylights",
+    "serviceDescription": "Hydra Cluster Python Lights Controller Service",
+    "serviceIP": "192.168.1.11",
+    "servicePort": 7000,
+    "serviceType": "hardware",
+    "redis": {
+      "url": "192.168.1.10",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

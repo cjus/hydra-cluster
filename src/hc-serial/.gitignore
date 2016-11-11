@@ -1,0 +1,9 @@
+.DS_Store
+*.log
+*.pem
+*.rsa
+scratch.*
+node_modules
+config/config.json
+*/static
+*/public

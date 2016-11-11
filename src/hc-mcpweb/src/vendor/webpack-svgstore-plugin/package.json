@@ -1,0 +1,73 @@
+{
+  "name": "webpack-svgstore-plugin",
+  "version": "2.0.8",
+  "description": "Webpack svgstore plugin",
+  "main": "index.js",
+  "scripts": {
+    "code:test": "mocha -w -R spec ./test/index.js",
+    "code:coverage": "istanbul cover ./node_modules/.bin/_mocha && npm run code:report",
+    "code:report": "CODECLIMATE_REPO_TOKEN=29b2c943849c33562af12b70563d86e95c073e04c7510e9da5d9711cf3233b17 ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info",
+    "build": "rm -rf platform/dist/* && NODE_ENV=platform webpack --progress -p --colors"
+  },
+  "author": {
+    "name": "me@mrsum.ru"
+  },
+  "contributors": [
+    {
+      "name": "Gordey Levchenko",
+      "email": "levchenko.gordey@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^6.0.1",
+    "htmlparser2": "^3.8.3",
+    "jade": "^1.11.0",
+    "lodash": "^3.10.1",
+    "svgo": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "codeclimate-test-reporter": "^0.1.1",
+    "eslint-config-rambler": "git+https://github.com/rambler-digital-solutions/dotfiles.git#master",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.2.5",
+    "path": "^0.11.14",
+    "webpack": "^1.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrsum/webpack-svgstore-plugin.git"
+  },
+  "gitHead": "fb665ecd09bd450e5b5f6ee51aec1ddc4f37136f",
+  "bugs": {
+    "url": "https://github.com/mrsum/webpack-svgstore-plugin/issues"
+  },
+  "homepage": "https://github.com/mrsum/webpack-svgstore-plugin#readme",
+  "_id": "webpack-svgstore-plugin@2.0.8",
+  "_shasum": "76cac94182ceb7fb383632fca0c6bacbeaa735b8",
+  "_from": "webpack-svgstore-plugin@*",
+  "_npmVersion": "2.12.1",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "mrsum",
+    "email": "me@mrsum.ru"
+  },
+  "dist": {
+    "shasum": "76cac94182ceb7fb383632fca0c6bacbeaa735b8",
+    "tarball": "http://registry.npmjs.org/webpack-svgstore-plugin/-/webpack-svgstore-plugin-2.0.8.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "mrsum",
+      "email": "me@mrsum.ru"
+    },
+    {
+      "name": "lgordey",
+      "email": "levchenko.gordey@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/webpack-svgstore-plugin/-/webpack-svgstore-plugin-2.0.8.tgz",
+  "readme": "ERROR: No README data found!"
+}

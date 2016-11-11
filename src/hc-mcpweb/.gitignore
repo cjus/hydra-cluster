@@ -1,0 +1,9 @@
+.DS_Store
+.idea/*
+*.log
+static/
+scratch.*
+node_modules/
+properties.js
+bb.tar
+*.sh

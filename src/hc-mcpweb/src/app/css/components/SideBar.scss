@@ -1,0 +1,33 @@
+@import 'css/core';
+
+.sidebar {
+  background-color: $app-sidebar;
+  color: $app-sidebar-text;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 25rem;
+  align-items: center;
+
+  &__title {
+    font-size: 2rem;
+    color: $white;
+    margin-bottom: 2rem;
+  }
+
+  &__logo-image {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  &__seperator {
+    @extend %body2;
+    background-color: $black;
+    border-radius: 0.5rem;
+    color: $app-sidebar-text;
+    margin: 3rem 0 1rem;
+    opacity: 0.6;
+    padding: 0.2rem;
+    text-align: center;
+  }
+}

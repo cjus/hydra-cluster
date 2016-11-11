@@ -1,0 +1,35 @@
+@import 'css/core';
+
+.sidebarbutton {
+  display: flex;
+  flex-direction: row;
+  margin: .5rem 0 1rem;
+
+  &__link {
+    color: $app-sidebar-text;
+
+    &:visited {
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  &__image {
+    width: 1.8rem;
+    text-align: center;
+    vertical-align: sub;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    // margin-left: 1rem;
+
+    &--active {
+      color: $white;
+    }
+  }
+}

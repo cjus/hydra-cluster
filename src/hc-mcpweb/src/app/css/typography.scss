@@ -1,0 +1,52 @@
+//$primary-font: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$primary-font: 'Lato', sans-serif;
+$base-font-size: 10px;
+
+$thin: 100;
+$light: 300;
+$normal: 400;
+$medium: 700;
+$bold: 900;
+
+%h1 {
+  font-size: 2rem;
+  font-weight: $medium;
+  line-height: 1.5;
+}
+
+%h2 {
+  font-size: 1.7rem;
+  font-weight: $medium;
+  line-height: 1.5;
+}
+
+%h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+%h4 {
+  font-size: 0.8rem;
+  font-weight: $medium;
+  line-height: 1.5;
+}
+
+%body1 {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+%body2 {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+%body3 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+%body4 {
+  font-size: 1rem;
+  line-height: 1.5;
+}

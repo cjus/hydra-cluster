@@ -1,0 +1,75 @@
+@import 'css/core';
+
+.dashboard {
+  @extend %body1;
+  margin: 0 2rem 2rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  pre {
+    background-color: $darkest-grey;
+    color: $white;
+    font-size: 1.2rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__services-graph {
+    height: 50rem;
+
+    .panel-body {
+      height: 80%;
+    }
+  }
+
+  &__services-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  &__service-tile {
+    margin: 1rem;
+    max-width: 50rem;    
+  }
+
+  &__pageheader {
+    margin-top: 0;
+    height: 8rem;
+  }
+
+  &__text {
+    &--red {
+      color: red;
+      display: inline;
+    }
+    &--green {
+      color: green;
+      display: inline;
+    }
+  }
+
+  &__green-sphere {
+    background-color: $green;
+    border-radius: 50%;
+    display: block;
+    height: 16px;
+    width: 16px;
+  }
+
+  &__grey-sphere {
+    background-color: $dark-grey;
+    border-radius: 50%;
+    display: block;
+    height: 16px;
+    width: 16px;
+  }
+
+}

@@ -1,0 +1,14 @@
+{
+  "hydra": {
+    "serviceName": "hc-serial",
+    "serviceIP": "",
+    "servicePort": 9002,
+    "serviceType": "controller",
+    "serviceDescription": "Serial Port Monitoring Service",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

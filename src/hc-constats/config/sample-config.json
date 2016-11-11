@@ -1,0 +1,16 @@
+{
+  "cluster": false,
+  "processes": 0,
+  "hydra": {
+    "serviceName": "constats",
+    "serviceDescription": "Console Status Service",
+    "serviceIP": "",
+    "servicePort": 0,
+    "serviceType": "monitoring",
+    "redis": {
+      "url": "127.0.0.1",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}

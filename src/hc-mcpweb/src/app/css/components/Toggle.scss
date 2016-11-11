@@ -1,0 +1,58 @@
+@import 'css/core';
+
+$toggle-width: 60px * 0.80;
+$toggle-height: 30px * 0.80;
+
+.toggle {
+  margin-left: -9999px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.toggle + label {
+  cursor: pointer;
+  display: block;
+  outline: none;
+  position: relative;
+  user-select: none;
+}
+
+input.toggle-round + label {
+  background-color: #dddddd;
+  border-radius: $toggle-height;
+  height: $toggle-height;
+  padding: 2px;
+  width: $toggle-width;
+}
+
+input.toggle-round + label:before, input.toggle-round + label:after {
+  bottom: 1px;
+  content: '';
+  display: block;
+  left: 1px;
+  position: absolute;
+  top: 1px;
+}
+
+input.toggle-round + label:before {
+  background-color: #f1f1f1;
+  border-radius: $toggle-height;
+  right: 1px;
+  transition: background 0.4s;
+}
+
+input.toggle-round + label:after {
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+  width: $toggle-height - 2;
+}
+
+input.toggle-round:checked + label:before {
+  background-color: $green;
+}
+
+input.toggle-round:checked + label:after {
+  margin-left: $toggle-height;
+}

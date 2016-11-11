@@ -1,0 +1,27 @@
+@import 'css/core';
+
+.scheduler {
+  @extend %body1;
+  margin: 0 2rem 2rem;
+  min-height: calc(100vh - 10rem);
+
+  a {
+    text-decoration: none;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 10rem);
+  }
+
+  &__pageheader {
+    margin-top: 0;
+    height: 8rem;
+  }
+
+  &__output {
+    margin-top: 2rem;
+    font-family: monospace;
+  }
+}

@@ -1,0 +1,18 @@
+@import 'css/core';
+
+.footer {
+  @extend %body3;
+  background-color: $app-footer;
+  bottom: 0;
+  color: $app-footer-text;
+  display: flex;
+  flex-direction: row;
+  font-weight: $light;
+  justify-content: space-between;
+  left: 0;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}

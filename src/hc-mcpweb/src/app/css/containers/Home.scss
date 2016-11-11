@@ -1,0 +1,31 @@
+@import 'css/core';
+
+.home {
+  @extend %body1;
+  margin: 0 2rem 2rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__logo-image {
+    margin: 0 auto;
+    width: 100rem;
+    height: 80rem;
+  }
+
+  &__loginButton {
+    margin: 0 auto;
+  }
+
+  &__pageheader {
+    height: 8rem;
+    margin-top: 0;
+  }
+}

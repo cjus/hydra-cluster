@@ -1,0 +1,31 @@
+{
+  "name": "hc-pylights",
+  "version": "0.2.2",
+  "description": "Hydra Cluster Python Lights servcie",
+  "private": true,
+  "scripts": {
+    "start": "node hc-pylights.js",
+    "debug": "node-debug hc-pylights.js",
+    "test": "mocha specs --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "fwsp-config": "1.0.3",
+    "fwsp-jsutils": "1.0.8",
+    "fwsp-server-response": "2.2.3",
+    "fwsp-umf-message": "0.4.2",
+    "fwsp-hydra": "0.10.5",
+    "bluebird": "3.4.1",
+    "xprocess": "1.0.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.3.1",
+    "jscs": "3.0.7",
+    "jscs-jsdoc": "2.0.0",
+    "mocha": "3.0.2",
+    "superagent": "2.2.0"
+  }
+}

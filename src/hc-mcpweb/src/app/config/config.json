@@ -1,0 +1,9 @@
+{
+  "appTitle": "MCP",
+  "version": "0.2.1",
+  "environment": "dev",
+  "apiServer": {
+    "targetServer": "http://192.168.1.12",
+    "version": "v1/mcp"
+  }
+}

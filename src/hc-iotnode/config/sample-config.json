@@ -1,0 +1,16 @@
+{
+  "cluster": false,
+  "processes": 0,
+  "hydra": {
+    "serviceName": "hc-iotnode",
+    "serviceDescription": "Hydra Cluster IoT Node",
+    "serviceIP": "",
+    "servicePort": 9034,
+    "serviceType": "compute",
+    "redis": {
+      "url": "192.168.1.10",
+      "port": 6379,
+      "db": 15
+    }
+  }
+}
