@@ -50,7 +50,7 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.14.0",
-    "webpack-svgstore-plugin": "./vendor/webpack-svgstore-plugin"
+    "webpack-svgstore-plugin": "./src/vendor/webpack-svgstore-plugin"
   },
   "dependencies": {
     "babel-polyfill": "^6.2.0",
